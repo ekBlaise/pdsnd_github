@@ -32,6 +32,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore some US bikeshare data after some git commit!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     #lower is used to get input in any format
     city = input('\n Which city would you love to explore the date? [Chicago, New York, Washington]\n').lower()
@@ -68,7 +69,7 @@ def get_filters():
 
 
 # In[4]:
-
+# Comment added to test git commit on code refectoring
 
 def load_data(city, month, day):
     """
