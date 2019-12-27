@@ -68,7 +68,7 @@ def get_filters():
 
 
 # In[4]:
-
+# Comment added to test git commit on code refectoring
 
 def load_data(city, month, day):
     """
